@@ -1,3 +1,5 @@
+console.log('hello world')
+
 const malumotOlish = async () => {
     try {
         const loader = document.getElementById('loader')
