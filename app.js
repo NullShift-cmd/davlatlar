@@ -1,8 +1,8 @@
 console.log('hello world')
 
 const malumotOlish = async () => {
+    const loader = document.getElementById('loader') 
     try {
-        const loader = document.getElementById('loader')
         const api = 'https://restcountries.com/v3.1/all?fields=name,flags'
         const malumot = await fetch(api)
 
