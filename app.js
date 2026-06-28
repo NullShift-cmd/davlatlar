@@ -53,6 +53,7 @@ const malumotOlish = async () => {
         const err = document.getElementById('error')
         err.classList.remove('d-none')
         h1.classList.add('d-none')
+        loader.classList.add('d-none')
     }
 }
 
